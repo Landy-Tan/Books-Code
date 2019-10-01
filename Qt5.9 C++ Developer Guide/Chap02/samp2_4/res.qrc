@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>打开文件.png</file>
+        <file>复制.png</file>
+        <file>剪切.png</file>
+        <file>粘贴.png</file>
+        <file>粗体.png</file>
+        <file>斜体.png</file>
+        <file>下划线.png</file>
+        <file>退出.png</file>
+        <file>清空.png</file>
+        <file>字体.png</file>
+        <file>显示.png</file>
+        <file>新建.png</file>
+    </qresource>
+</RCC>
