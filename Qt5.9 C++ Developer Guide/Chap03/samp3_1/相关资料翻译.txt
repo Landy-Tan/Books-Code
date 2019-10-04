@@ -1,0 +1,136 @@
+This macro is used for declaring properties in classes that inherit QObject. 
+This macro is 这个宏是
+used for 用于
+declaring properties 声明属性
+in 在
+classes 类
+inherit 继承
+这个宏是用于声明属性，在继承QObject类。
+
+Properties behave like class data members,
+Properties 属性
+behave 的行为
+like 就像/如同
+class data members 类数据成员
+属性的行为如同类的数据成员
+
+but they have additional features accessible through the Meta-Object System.
+but 但是
+they 它们
+have 有
+additional 额外的/附加的
+features 特性/特征
+accessible 可访问的
+through 通过
+Meta-Object 元对象
+System 系统
+但是它们有额外的，通过元对象访问的特性
+
+The property name and type and the READ function are required.
+property 所有权/性能/性质
+name 名字
+and 和
+type 类型
+READ function 读功能
+are 是
+required 要求/需要/必须的
+属性的名称、类型和读功能是必须的
+
+The type can be any type supported by QVariant, or it can be a user-defined type
+type 类型
+can be any 可以是任何
+supported QVariant 支持QVariant
+or 或
+it 它
+a user-defined type 一个用户自定义的类型
+可以是任何支持QVariant的类型，或可以是一个用户自定义的类型
+
+The other items are optional, but a WRITE function is common.
+other 其他
+items 项目
+are 是
+optional可选的，
+but 但是
+common 常见的/普通的/通常的
+其他项目是可选的，但是一个写功能是常见的。
+
+The attributes default to true except USER, which defaults to false.
+attributes 属性/属于
+default 默认的
+except 除了
+which 哪一个/哪一些/。。。的那个,...的那些
+defaults 默认/预设值
+默认的属性是true，除了USER, USER默认为false。
+
+For more details about how to use this macro
+this macro 这个宏
+more 更多的
+details 细节
+about 关于
+how to use 如何使用
+关于如何使用这个宏更多的细节
+
+ and a more detailed example of its use
+ detailed 详细的
+ example 例子
+ of its use 它的使用
+ 和一个更多的详细的例子
+
+see the discussion on Qt's Property System.
+see 看/看到/看见
+discussion 讨论
+on 在
+Qt's Property System. Qt的属性系统
+看Qt的属性系统的讨论
+
+undefined reference to
+undefined 未定义的
+reference 参考
+
+The file moc_qperson.cpp has changed outside Qt Creator. Do you want to reload it?
+file 文件
+has 有/发生
+changed 更改
+outside 外部/外面/在外部/在外面
+want 想要/需要/希望
+reload 重新加载
+moc_qperson.cpp文件在外部发生更改，你希望重新加载它吗？
+
+variable 'QMetaProperty prop' has initializer but incomplete type
+variable 变量
+incomplete 不完整的
+变量'QMetaProperty prop'有初始化，但是不完整的类型
+
+invalid use of incomplete type 'class QMetaProperty'
+invalid 无效的
+use 使用
+使用无效的、不完整的类型'class QMetaProperty'
+
+Indicates to the compiler that the parameter with the specified name is not used in the body of a function.
+Indicates 表明/指示/显示
+compiler 编译器
+that the 这一/指出了
+parameter 参数
+with 与
+specified name指定的名称
+not used in the 不用于
+body 主体/主要部分
+告诉编译器这一参数与指定的名称不用于主体函数
+
+This can be used to suppress compiler warnings while allowing functions to be defined with meaningful parameter names in their signatures.
+can be used to 可以用来
+suppress 抑制
+compiler 编译器
+while 而
+warnings 警告
+allowing 允许
+to be 是/存在
+defined 定义/明确
+meaningful 有意义的
+parameter names 参数名称
+in their 在它们的
+signatures 签名
+这个可以用来抑制编译器警告，而允许功能存在明确有意义的参数名称在它们的签名
+
+
+
