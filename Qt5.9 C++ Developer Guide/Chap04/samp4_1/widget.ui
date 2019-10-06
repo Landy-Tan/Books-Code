@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>172</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>321</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0" columnstretch="0,0,0,0">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>单 价</string>
+        </property>
+        <property name="buddy">
+         <cstring>editUnitPrice</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QLineEdit" name="editTotalPrice"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>总 价</string>
+        </property>
+        <property name="buddy">
+         <cstring>editTotalPrice</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>数 量</string>
+        </property>
+        <property name="buddy">
+         <cstring>editNum</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="editNum"/>
+      </item>
+      <item row="1" column="3">
+       <widget class="QLineEdit" name="editUnitPrice"/>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="btnCalc">
+        <property name="text">
+         <string>计算</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>二 进 制</string>
+        </property>
+        <property name="buddy">
+         <cstring>editBinary</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="editDecimalism"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="btnToDecimalism">
+        <property name="text">
+         <string>转换为十进制</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>十六进制</string>
+        </property>
+        <property name="buddy">
+         <cstring>editHexadecimal</cstring>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="editBinary"/>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="btnToHexadecimal">
+        <property name="text">
+         <string>转换为十六进制</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="editHexadecimal"/>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="btnToBinary">
+        <property name="text">
+         <string>转换为二进制</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>十 进 制</string>
+        </property>
+        <property name="buddy">
+         <cstring>editDecimalism</cstring>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <tabstops>
+  <tabstop>editNum</tabstop>
+  <tabstop>editUnitPrice</tabstop>
+  <tabstop>btnToDecimalism</tabstop>
+  <tabstop>editHexadecimal</tabstop>
+  <tabstop>btnToHexadecimal</tabstop>
+  <tabstop>editTotalPrice</tabstop>
+  <tabstop>editBinary</tabstop>
+  <tabstop>btnToBinary</tabstop>
+  <tabstop>editDecimalism</tabstop>
+  <tabstop>btnCalc</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

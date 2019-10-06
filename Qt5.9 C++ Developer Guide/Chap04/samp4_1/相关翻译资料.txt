@@ -1,0 +1,15 @@
+call of overloaded 'setNum(float&,int)' is ambiguous.
+call 呼叫/调用
+overloaded 重载
+ambiguous. 模糊/不明确的
+
+Returns a string equivalent of the number n, formatted according to the specified format and precision. 
+equivalent 等效的/对等的
+formatted 格式/格式化的
+according 根据/相应的/一致的
+specified 指定的
+precision. 精度
+
+See Argument Formats for details.
+Argument 论证/内容提要
+details.细节
