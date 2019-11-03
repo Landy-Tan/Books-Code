@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Images/ZHX_窗体2.png</file>
+        <file>Images/放大.png</file>
+        <file>Images/高度.png</file>
+        <file>Images/可见.png</file>
+        <file>Images/类型-遍历节点.png</file>
+        <file>Images/删除文件.png</file>
+        <file>Images/实际大小.png</file>
+        <file>Images/适合宽度.png</file>
+        <file>Images/缩小.png</file>
+        <file>Images/退出.png</file>
+        <file>Images/新建目录.png</file>
+        <file>Images/新建文件.png</file>
+    </qresource>
+</RCC>
