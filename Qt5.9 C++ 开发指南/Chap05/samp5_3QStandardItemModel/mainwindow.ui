@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>777</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QSplitter" name="splitter">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>512</width>
+      <height>192</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+    <widget class="QTableView" name="tableView"/>
+    <widget class="QPlainTextEdit" name="plainTextEdit"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>777</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actOpenFile"/>
+   <addaction name="actSaveFile"/>
+   <addaction name="actModelDataLook"/>
+   <addaction name="separator"/>
+   <addaction name="actAddRow"/>
+   <addaction name="actInsertRow"/>
+   <addaction name="actDeleteRow"/>
+   <addaction name="separator"/>
+   <addaction name="actLeft"/>
+   <addaction name="actCent"/>
+   <addaction name="actRight"/>
+   <addaction name="actChuti"/>
+   <addaction name="separator"/>
+   <addaction name="actEdit"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actOpenFile">
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+   <property name="toolTip">
+    <string>打开文件</string>
+   </property>
+  </action>
+  <action name="actSaveFile">
+   <property name="text">
+    <string>另存文件</string>
+   </property>
+   <property name="toolTip">
+    <string>另存文件</string>
+   </property>
+  </action>
+  <action name="actModelDataLook">
+   <property name="text">
+    <string>模型数据浏览</string>
+   </property>
+   <property name="toolTip">
+    <string>模型数据浏览</string>
+   </property>
+  </action>
+  <action name="actAddRow">
+   <property name="text">
+    <string>添加行</string>
+   </property>
+   <property name="toolTip">
+    <string>添加行</string>
+   </property>
+  </action>
+  <action name="actInsertRow">
+   <property name="text">
+    <string>插入行</string>
+   </property>
+   <property name="toolTip">
+    <string>插入行</string>
+   </property>
+  </action>
+  <action name="actDeleteRow">
+   <property name="text">
+    <string>删除行</string>
+   </property>
+   <property name="toolTip">
+    <string>删除行</string>
+   </property>
+  </action>
+  <action name="actLeft">
+   <property name="text">
+    <string>居左</string>
+   </property>
+   <property name="toolTip">
+    <string>居左</string>
+   </property>
+  </action>
+  <action name="actCent">
+   <property name="text">
+    <string>居中</string>
+   </property>
+   <property name="toolTip">
+    <string>居中</string>
+   </property>
+  </action>
+  <action name="actRight">
+   <property name="text">
+    <string>居右</string>
+   </property>
+   <property name="toolTip">
+    <string>居右</string>
+   </property>
+  </action>
+  <action name="actChuti">
+   <property name="text">
+    <string>粗体</string>
+   </property>
+   <property name="toolTip">
+    <string>粗体</string>
+   </property>
+  </action>
+  <action name="actEdit">
+   <property name="text">
+    <string>退出</string>
+   </property>
+   <property name="toolTip">
+    <string>退出</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>actEdit</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>373</x>
+     <y>215</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
